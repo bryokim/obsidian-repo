@@ -16,3 +16,17 @@ graph TD
 ```
 
 :SiGithub: bryokim
+
+```mermaid
+graph TB
+	subgraph boy
+		A("My name is boy 👦")
+	end
+	subgraph girl
+		B("My name is girl 👧")
+	end
+	subgraph us
+		A --> C("Couple 💑")
+		B --> C
+	end
+```
